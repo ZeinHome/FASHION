@@ -1,0 +1,39 @@
+.arrivals {
+  padding: 120px 0 143px;
+}
+.arrivals__header {
+  margin-bottom: 100px;
+}
+
+.arrivals__title {
+  display: inline-block;
+  position: relative;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.04;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.arrivals__title::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 190px;
+  height: 32px;
+
+  background-image: url('../../img/icons/decor-yellow.svg');
+  background-repeat: no-repeat;
+
+  z-index: -1;
+}
+
+.arrivals__cards {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
