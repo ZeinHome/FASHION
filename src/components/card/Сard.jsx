@@ -6,7 +6,7 @@ export default function Card({ title, img }) {
   return (
     <li className={styles.card}>
       <a href="#!" className={styles.card__link}>
-        1
+        {' '}
       </a>
       <img className={styles.card__img} src={img} alt="card" />'
       <div className={styles.card__body}>
